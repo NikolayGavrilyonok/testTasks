@@ -1,0 +1,45 @@
+/* Main article */
+
+.main-article__article {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 991px;
+    min-width: 768px;
+}
+.main-article__image {
+    height: 320px;
+}
+.main-article__article-header {
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.main-article__article-header:hover {
+    color: red;
+}
+.main-article__quote {
+    color: gray;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.main-article__article-header,
+.main-article__quote,
+.main-article__article-text {
+    display: block;
+}
+.main-article__article-text {
+    font-size: 16px;
+    line-height: 18px;
+}
+.main-article__text-container {
+    box-sizing: padding-box;
+    height: 320px;
+    min-width: 330px;
+    padding-left: 15px;
+}

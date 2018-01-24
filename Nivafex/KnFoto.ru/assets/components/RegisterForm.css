@@ -1,0 +1,25 @@
+/* Register form */
+
+.register-form-wrapper {
+    margin: 50px auto;
+    max-width: 991px;
+    min-width: 768px;
+}
+.register-form {
+    margin: auto;
+    width: 300px;
+}
+.register-form__first-name-input,
+.register-form__last-name-input,
+.register-form__age-input,
+.register-form__email-input,
+.register-form__login-input,
+.register-form__password-input,
+.register-form__confirm-password-input,
+.register-form__submit-input {
+    box-sizing: border-box;
+    display: block;
+    height: 30px;
+    margin: 10px 0;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+/* Header social block */
+
+.header-social-block {
+    min-width: 200px;
+    height: 72px;
+    text-align: right;
+    width: 250px;
+}
+.header-social__button {
+    color: black;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 32px;
+    width: 30px
+}
+.face-book-button:after {
+    content: "\f09a";
+}
+.twitter-button:after {
+    content: "\f099";
+}
+.you-tube-button:after {
+    content: "\f16a";
+}
+.header-social__button:hover {
+    color: red;
+}

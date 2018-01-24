@@ -1,0 +1,9 @@
+/* Page stop */
+
+.page-stop-wrapper {
+    margin: 10% auto;
+}
+.page-stop__text {
+    display: block;
+    font-size: 30px;
+}

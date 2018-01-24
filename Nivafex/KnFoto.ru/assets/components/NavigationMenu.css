@@ -1,0 +1,25 @@
+/* Navigation menu */
+
+.navigation-menu-block {
+    margin:  150px auto 40px auto;
+    max-width: 991px;
+    min-width: 768px;
+}
+.navigation-menu__menu {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation-menu__menu-item {
+    cursor: pointer;
+}
+.navigation-menu__menu-item:hover {
+    color: red;
+}

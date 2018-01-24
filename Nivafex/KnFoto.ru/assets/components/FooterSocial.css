@@ -1,0 +1,30 @@
+/* Footer social block */
+
+.footer-social-block {
+    width: 12%;
+}
+.footer-social__button {
+    color: black;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 0px;
+    width: 30px;
+}
+.face-book-button:after {
+    content: "\f09a";
+}
+.twitter-button:after {
+    content: "\f099";
+}
+.you-tube-button:after {
+    content: "\f16a";
+}
+.footer-social__button:hover {
+    color: red;
+}

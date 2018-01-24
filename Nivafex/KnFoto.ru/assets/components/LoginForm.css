@@ -1,0 +1,19 @@
+/* Login form */
+
+.login-form-wrapper {
+    margin: 50px auto;
+    max-width: 991px;
+    min-width: 768px;
+}
+.login-form {
+    margin: auto;
+    width: 300px;
+}
+.login-form__login-input,
+.login-form__password-input {
+    box-sizing: border-box;
+    display: block;
+    height: 30px;
+    margin: 10px 0;
+    width: 100%;
+}

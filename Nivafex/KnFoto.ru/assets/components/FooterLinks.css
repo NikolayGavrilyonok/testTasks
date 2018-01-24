@@ -1,0 +1,16 @@
+/* Footer links */
+
+.footer-links {
+    height: 100%;
+    line-height: 15px;
+    width: 17%;
+}
+.footer-links__links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links__link:hover {
+    color: red;
+    cursor: pointer;
+}

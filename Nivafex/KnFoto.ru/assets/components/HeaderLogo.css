@@ -1,0 +1,11 @@
+.header-logo {
+    height: 72px;
+    min-width: 150px;
+    width: 250px;
+}
+.header-logo__image {
+    cursor: pointer;
+    height: 72px;
+    margin: auto;
+    width: 135px;
+}
